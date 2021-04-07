@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>无尽洞穴 - 雪国服务器扩展介绍</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u65e0\u5c3d\u6d1e\u7a74";
+    var mkdocs_page_input_path = "page4.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> 雪国服务器扩展介绍</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">模组介绍</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../page1/">强化系统</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../page2/">幻书系统</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../page3/">特殊机制</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">无尽洞穴</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_2">关于无尽洞穴</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">关于深度</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#boss">无尽洞穴存在的额外Boss及地形</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">传送底座及零件获取</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#boss_1">Boss词缀</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#boss_2">Boss主词缀</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#boss_3">Boss副词缀</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../page5/">特色物品</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../page10/">原版更改</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../about/">关于</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">雪国服务器扩展介绍</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>无尽洞穴</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="_1">无尽洞穴</h1>
+<hr />
+<h2 id="_2">关于无尽洞穴</h2>
+<ul>
+<li>这是一个非常混乱的洞穴世界并且大部分怪物都获得了增强</li>
+<li>融合了一部分地上世界的地形及Boss</li>
+<li>无尽洞穴在完成攻略条件后会进行整个无尽洞穴的重置</li>
+<li>重置仅保留<code>玩家</code>及<code>玩家身上所携带的物品</code>除此之外<code>全部清除</code></li>
+</ul>
+<h2 id="_3">关于深度</h2>
+<ul>
+<li>无尽洞穴存在<code>深度</code>这一属性</li>
+<li>初始深度为<code>1</code> 每次达成攻略条件重置后深度<code>提升一层</code></li>
+<li>深度每提升一层怪物攻击及生命提升<code>6%</code></li>
+</ul>
+<h2 id="boss">无尽洞穴存在的额外Boss及地形</h2>
+<ul>
+<li><code>龙蝇</code>及<code>岩浆区域</code></li>
+<li><code>蜂后</code>及<code>杀人蜂区域</code></li>
+<li><code>克劳斯赃物袋</code></li>
+<li><code>空洞骑士区域</code></li>
+<li>随机位置生成的<code>巨鹿</code>及<code>熊獾</code></li>
+</ul>
+<h2 id="_4">传送底座及零件获取</h2>
+<ul>
+<li>无尽洞穴随机分布着<code>盒状零件</code>、<code>曲柄状零件</code>、<code>金属土豆零件</code>及一块<code>传送底座区域</code></li>
+<li>无尽洞穴的任意Boss有<code>10%</code>几率掉落<code>环状零件</code></li>
+<li>无尽洞穴的<code>远古影织者</code>必定掉落<code>环状零件</code></li>
+<li>启动传送底座需要安装<code>全部四种零件</code>至<code>木质混沌传送底座</code>并把<code>探测仪</code>插入<code>探测仪底座</code></li>
+<li>成功启动<code>木质混沌传送底座</code>后5秒内会将无尽洞穴所有玩家传送至地上世界</li>
+<li><code>2</code>分钟内服务器会开始进行无尽洞穴重置进程并显示倒计时<code>此时请尽量不要进入无尽洞穴</code></li>
+</ul>
+<h2 id="boss_1">Boss词缀</h2>
+<ul>
+<li>无尽洞穴的Boss拥有20%的基础减伤</li>
+<li>无尽洞穴的Boss有随机的额外词缀加强</li>
+<li>词缀分为主词缀和副词缀并且副词缀数量会随着深度提升增加</li>
+<li>具体词缀属性请看下方词缀效果</li>
+</ul>
+<h2 id="boss_2">Boss主词缀</h2>
+<ul>
+<li><code>特别强壮</code> - 基础生命值变为<code>两倍</code></li>
+<li><code>以战养战</code> - <code>击杀玩家</code>回复<code>30%</code>生命</li>
+<li><code>超强再生</code> - 每秒回复<code>35</code>点生命</li>
+<li><code>硬化皮肤</code> - 获得<code>70%</code>的减伤</li>
+<li><code>超强力量</code> - 基础攻击力变为<code>两倍</code></li>
+</ul>
+<h2 id="boss_3">Boss副词缀</h2>
+<ul>
+<li><code>反弹伤害</code> - 收到伤害时反弹<code>2</code>伤害</li>
+<li><code>武装解除</code> - 攻击时<code>15%</code>概率解除目标武器装备</li>
+<li><code>理智蒸发</code> - 附近玩家的理智会像漏了水一样</li>
+<li><code>冰冷强化</code> - 攻击时<code>15%</code>概率冰冻目标并且自身免疫冰冻效果</li>
+<li><code>火焰强化</code> - 攻击时<code>15%</code>概率点燃目标并且自身免疫火焰伤害</li>
+<li><code>防具解除</code> - 攻击时<code>15%</code>概率解除目标防具<code>优先解除头盔</code></li>
+<li><code>死之宣告</code> - 攻击时<code>5%</code>概率直接宣告目标死亡</li>
+<li><code>幽冥一击</code> - 攻击时<code>10%</code>概率减少目标<code>25%</code>最大生命上限 </li>
+<li><code>瞬间移动</code> - 每<code>20~40</code>秒随机选择附近一个玩家作为目标进行瞬移</li>
+<li><code>凌冬将至</code> - 每<code>40~60</code>秒发动<code>追加技能</code>降低附近的温度等待一定时间后冰冻所有目标</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../page5/" class="btn btn-neutral float-right" title="特色物品">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../page3/" class="btn btn-neutral" title="特殊机制"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../page3/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../page5/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
